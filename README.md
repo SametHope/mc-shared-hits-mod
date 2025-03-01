@@ -8,7 +8,8 @@ To toggle the mod: `/gamerule shareHits (true/false)` (true by default)
 
 ---
 
-Video Showcase
+### Video Showcase
+Since hits share direction and source in addition to the amount, shields can be used to block virtual hits and netherite armor will help against the knockback.
 
 https://github.com/user-attachments/assets/8e6435b8-8e5f-45d2-895b-8204ac043d3d
 
