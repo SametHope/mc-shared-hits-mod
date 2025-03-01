@@ -1,15 +1,30 @@
-Fabric mod to share hits taken by players with all other active players.
+# Minecraft Shared Hits Mod
 
----
+This is a simple Fabric mod that adds a gamerule to share damage taken by players with all other active players. It works on **single-player**, **integrated/LAN servers**, and **dedicated servers**.
 
-This is a super simple mod with a single mixin and gamerule. It works on both integrated/LAN and dedicated servers. This mod is only necessary on the server and it will be ignored on clients.
+## Gamerule
 
-To toggle the mod: `/gamerule shareHits (true/false)` (true by default)
+```
+/gamerule shareHits [<value>]
+```
 
----
+- **Default:** `true`
+- When enabled, any damage a player takes is also applied to all other active players.
+- Only affects **survival mode** players; spectators and creative mode players are ignored. 
 
-### Video Showcase
-Since hits share direction and source in addition to the amount, shields can be used to block virtual hits and netherite armor will help against the knockback.
+## Permissions
 
-https://github.com/user-attachments/assets/8e6435b8-8e5f-45d2-895b-8204ac043d3d
+- Requires **operator permissions (level 2)** or higher to modify the gamerule just like any other gamerule.
+
+## Notes
+
+- This mod is only required on **servers** and will be ignored on clients.
+- Works with all vanilla damage (and probably modded) mechanics, accounting for shields, knockback, resistance effects, etc.
+
+## Video Showcase
+
+This video shows an example of how hits are shared and applied to players with different effect and knockback resistances.
+
+https://github.com/user-attachments/assets/a122339e-de20-42ad-86e4-facde3727f5c
+
 
