@@ -29,6 +29,7 @@ public class LivingEntityMixin {
         processingSharedHit = true;
         for (var otherPlayer : world.getServer().getPlayerManager().getPlayerList()) {
             if (otherPlayer.equals(player)) continue;
+            if (otherPlayer.isCreative() || otherPlayer.isSpectator()) continue;
             otherPlayer.damage(world, source, amount);
         }
         processingSharedHit = false;
