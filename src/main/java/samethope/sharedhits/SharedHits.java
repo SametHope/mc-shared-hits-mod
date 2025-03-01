@@ -15,6 +15,6 @@ public class SharedHits implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		SHARE_HITS = GameRuleRegistry.register("shareHits", GameRules.Category.PLAYER, GameRuleFactory.createBooleanRule(true));
-		LOGGER.info("Shared hits initialized!");
+//		LOGGER.info("Shared hits initialized!");
 	}
 }
