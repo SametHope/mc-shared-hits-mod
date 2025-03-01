@@ -19,7 +19,7 @@ This is a simple Fabric mod that adds a gamerule to share damage taken by player
 ## Notes
 
 - This mod is only required on **servers** and will be ignored on clients.
-- Works with all vanilla damage (and probably modded) mechanics, accounting for shields, knockback, resistance effects, etc.
+- Works with all vanilla (and probably modded) damage mechanics, accounting for shields, knockback, resistance effects, etc.
 
 ## Video Showcase
 
