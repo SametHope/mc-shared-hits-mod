@@ -3,15 +3,16 @@
 	"id": "shared-hits",
 	"version": "${version}",
 	"name": "Shared Hits",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Share hits/damage taken by players with all other active players when 'shareHits' gamerule is enabled (enabled by default). This includes the damage source, direction, and amount. Works on both integrated/LAN and dedicated servers, not required on clients.\n\nThis is not a health sync mod.",
 	"authors": [
 		"SametHope"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/SametHope/mc-shared-hits-mod",
+		"sources": "https://github.com/SametHope/mc-shared-hits-mod",
+		"issues": "https://github.com/SametHope/mc-shared-hits-mod/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/shared-hits/icon.png",
 	"environment": "*",
 	"entrypoints": {
