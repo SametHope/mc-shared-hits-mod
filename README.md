@@ -2,6 +2,11 @@
 
 This is a simple Fabric mod that adds a gamerule to share damage taken by players with all other active players. It works on **single-player**, **integrated/LAN servers**, and **dedicated servers**.
 
+Official pages for this mod are:
+- https://github.com/SametHope/mc-shared-hits-mod
+- https://www.curseforge.com/minecraft/mc-mods/shared-hits-mod
+- https://modrinth.com/mod/shared-hits-mod
+
 ## Gamerule
 
 ```
