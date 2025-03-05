@@ -2,7 +2,7 @@
 
 This is a simple Fabric mod that adds a gamerule to share damage taken by players with all other active players. It works on **single-player**, **integrated/LAN servers**, and **dedicated servers**.
 
-Unlike most similar mods, shared hits in this mod share the same damage source, attack type, and direction of attack in addition to the amount of damage.
+Unlike most similar mods, shared hits in this mod share the same damage source, attack type, and direction of attack in addition to the amount of damage. This is not a health sync mod.
 
 Official pages for this mod are:
 - https://github.com/SametHope/mc-shared-hits-mod
